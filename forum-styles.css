@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('texture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+header {
+  background-color: #164555;
+    color: white;
+    text-align: center;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0e6c8b;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #164555;
+}
+
+nav a.active {
+    background-color: #164555;
+}
+
+
+section {
+    padding: 1em;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+footer {
+  background-color: #164555;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
